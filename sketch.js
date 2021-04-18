@@ -1,7 +1,7 @@
 var starImg,bgImg;
 var star, starBody;
 //create variable for fairy sprite and fairyImg
-var fairy,fairyImg,fairyVoice,fairyBody;
+var fairy,fairyImg,fairyBody;
 
 
 const Engine = Matter.Engine;
