@@ -16,7 +16,7 @@ function preload()
 	
 	//load animation for fairy here
 	fairyImg  = loadImage("images/fairyImage1.png","images/fairyImage2.png");
-	fairyVoice = loadSound("sound/joyMusic.mp3");
+	
 }
 
 function setup() {
@@ -61,7 +61,7 @@ function draw() {
 if(star.y > 470 && starBody.position.y > 470 ){
 	Matter.Body.setStatic(starBody,true); 
 }
-  fairyVoice.play();
+  
 
 
   drawSprites();
